@@ -16,59 +16,84 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <img
-      id="logo"
-      src="./Assets/logotipoLS.png"
-      alt="Logotipo da limão Siciliano"
-    />
-    <nav>
-      <ul class="menu">
+    <div class="header">
+      <a href="#">
+        <img
+          class="logo"
+          src="./Assets/logotipoLS.png"
+          alt="Logotipo da limão Siciliano"
+        />
+      </a>
+      <nav>
+        <ul class="menu">
+          <li>
+            <strong> <a href="#">HOME</a></strong>
+          </li>
+          <li>
+            <a href="#">MARMITARIA</a>
+            <ul>
+              <li>
+                <a href="#">Quem Somos</a>
+              </li>
+              <li>
+                <a href="#">Contato</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">PEÇA ONLINE</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="cardapio">
+        <a href="#">Cárdapio da Semana</a>
+      </button>
+    </div>
+
+    <div class="Banner">
+      <img src="" alt="" class="imagem-banner" />
+      <div class="bt">
+        <br />
+        <button id="btFoto1">
+          <img src="./imagens/icone1.png" alt="icone limão Siciliano" />
+        </button>
+        <button id="btFoto2">
+          <img src="./imagens/icone1.png" alt="icone limão Siciliano" />
+        </button>
+        <button id="btFoto3">
+          <img src="./imagens/icone1.png" alt="icone limão Siciliano" />
+        </button>
+      </div>
+    </div>
+    <br />
+
+    <div class="marmitas">
+      <h1>MARMITARIA</h1>
+      <ul>
         <li>
-          <strong> <a href="#">HOME</a></strong>
+          <img
+            src="./Assets/pequena-marmitex.png"
+            alt="embagem de marmitex pequena"
+          />
+          <h2>EXECUTIVA P</h2>
         </li>
         <li>
-          <a href="#">MARMITARIA</a>
-          <ul>
-            <li>
-              <a href="#">Quem Somos</a>
-            </li>
-            <li>
-              <a href="#">Contato</a>
-            </li>
-          </ul>
+          <img
+            src="./Assets/media-marmitex.png"
+            alt="embagem de marmitex média"
+          />
+          <h2>EXECUTIVA M</h2>
         </li>
         <li>
-          <a href="#">PEÇA ONLINE</a>
+          <img
+            src="./Assets/grande-marmitex-1.jpg"
+            alt="embagem de marmitex grande"
+          />
+          <h2>EXECUTIVA G</h2>
         </li>
       </ul>
-    </nav>
-
-    <button class="cardapio">Cárdapio da Semana</button>
-
-    <h1>MARMITARIA</h1>
-    <ul>
-      <li>
-        <img
-          src="./Assets/pequena-marmitex.png"
-          alt="embagem de marmitex pequena"
-        />
-        <h2>EXECUTIVA P</h2>
-      </li>
-      <li>
-        <img
-          src="./Assets/media-marmitex.png"
-          alt="embagem de marmitex média"
-        />
-        <h2>EXECUTIVA M</h2>
-      </li>
-      <li>
-        <img
-          src="./Assets/grande-marmitex-1.jpg"
-          alt="embagem de marmitex grande"
-        />
-        <h2>EXECUTIVA G</h2>
-      </li>
-    </ul>
+    </div>
+    <script src="./script.js"></script>
   </body>
-  <script></script>
 </html>
