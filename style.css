@@ -224,3 +224,59 @@ button img {
 
   height: 200px;
 }
+
+.Banner2 {
+  width: 100%;
+  height: 295px;
+}
+
+.Banner2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Banner3 li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Banner3 li img {
+  width: 500px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.Banner3 ul {
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.estrutura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 70vh; /* Ajuste o valor conforme necessário */
+  background-color: #943340;
+  width: 100%;
+}
+.estrutura h1 {
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+.estrutura img {
+  width: 350px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+  margin-right: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  border: 3px solid #fff;
+}
