@@ -280,3 +280,40 @@ button img {
   margin-left: 20px;
   border: 3px solid #fff;
 }
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  height: 50vh; /* Ajuste o valor conforme necessário */
+  width: 100%;
+}
+
+.contato ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: 30px;
+}
+.contato li {
+  flex-basis: 30%; /* Ajuste o valor conforme necessário */
+}
+
+.contato h2 {
+  color: #c22026;
+}
+
+.contato li p {
+  font-size: 14px;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  height: 5vh; /* Ajuste o valor conforme necessário */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
